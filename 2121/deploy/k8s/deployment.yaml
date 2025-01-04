@@ -30,7 +30,7 @@ spec:
         version: 1.0.0
     spec:
       nodeSelector:
-        kubernetes.io/hostname: cicd-server
+        kubernetes.io/hostname: control
       containers:
         - name: api-tester-2121
           image: skwwnl/api-tester:v1.0.0
