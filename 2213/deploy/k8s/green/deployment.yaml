@@ -60,10 +60,10 @@ spec:
           resources:
             requests:
               memory: "100Mi"
-              cpu: "100M"
+              cpu: "50M"
             limits:
               memory: "200Mi"
-              cpu: "200M"
+              cpu: "100M"
           volumeMounts:
             - name: secret-datasource
               mountPath: /usr/src/myapp/datasource
