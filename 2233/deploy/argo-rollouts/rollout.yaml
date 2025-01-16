@@ -32,7 +32,7 @@ spec:
         version: 1.0.0
     spec:
       nodeSelector:
-        kubernetes.io/hostname: k8s-master
+        kubernetes.io/hostname: control
       containers:
         - name: api-tester-2233
           image: 1pro/api-tester:1.0.0
